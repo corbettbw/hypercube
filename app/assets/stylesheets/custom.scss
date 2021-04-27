@@ -15,8 +15,20 @@ $gray-medium-light: #eaeaea;
 
 body {
     padding-top: 60px;
+    a {
+      color: rgb(124, 79, 167);
+      &:hover {
+        color: teal
+      }
+    }
+    background-image: linear-gradient(to bottom right, rgb(0, 59, 111), rgb(175, 196, 255));
   }
   
+  .jumbotron {
+    background-image: url(tardis_right_aligned.jpg);
+    background-size: 100%;
+  }
+
   section {
     overflow: auto;
   }
@@ -60,11 +72,15 @@ h1, h2, h3, h4, h5, h6 {
   }
   /* header */
 
+  .navbar-inverse .navbar-nav > li > a {
+    color: rgb(241, 211, 128);
+  }
+
 #logo {
     float: left;
     margin-right: 10px;
     font-size: 1.7em;
-    color: white;
+    color: rgb(241, 211, 128);
     text-transform: uppercase;
     letter-spacing: -1px;
     padding-top: 9px;
