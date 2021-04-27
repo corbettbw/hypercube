@@ -15,8 +15,21 @@ $gray-medium-light: #eaeaea;
 
 body {
     padding-top: 60px;
+    a {
+      color: rgb(90, 52, 126);
+      font-weight: bold;
+      &:hover {
+        color: teal
+      }
+    }
+    background-image: linear-gradient(to bottom right, rgb(0, 59, 111), rgb(175, 196, 255));
   }
-  
+
+  .jumbotron {
+    background-image: url(tardis_right_aligned.jpg);
+    background-size: 100%;
+  }
+
   section {
     overflow: auto;
   }
@@ -25,10 +38,18 @@ body {
     resize: vertical;
   }
   
+  .tab {
+    display: inline-block;
+    margin-left: 40px;
+  }
+
   .center {
     text-align: center;
     h1 {
       margin-bottom: 10px;
+    }
+    img {
+      border-radius: 50%;
     }
   }
   
@@ -43,6 +64,7 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: -2px;
     margin-bottom: 30px;
     text-align: center;
+    color: rgb(26, 25, 25)
   }
   
   h2 {
@@ -53,6 +75,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     color: $gray-light;
   }
+
+  h3 {
+    color: rgb(25,25,25)
+  }
   
   p {
     font-size: 1.1em;
@@ -60,11 +86,15 @@ h1, h2, h3, h4, h5, h6 {
   }
   /* header */
 
+  .navbar-inverse .navbar-nav > li > a {
+    color: rgb(241, 211, 128);
+  }
+
 #logo {
     float: left;
     margin-right: 10px;
     font-size: 1.7em;
-    color: white;
+    color: rgb(241, 211, 128);
     text-transform: uppercase;
     letter-spacing: -1px;
     padding-top: 9px;
@@ -272,6 +302,7 @@ input {
   }
   .content {
     display: block;
+    color: black;
     margin-left: 60px;
     img {
       display: block;
