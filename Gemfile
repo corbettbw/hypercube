@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby                                '3.0.0'
+ruby                                '3.1.4'
 gem 'rails',                        '~> 6.0.3.6'
 gem 'image_processing',             '1.9.3'
 gem 'mini_magick',                  '4.9.5'
@@ -16,8 +16,10 @@ gem 'sass-rails',                   '6.0.0'
 gem 'webpacker',                    '4.2.2'
 gem 'turbolinks',                   '5.2.1'
 gem 'jbuilder',                     '2.10.0'
-gem 'bootsnap',                     '1.4.6', require: false
+gem 'bootsnap',                     '1.9.2', require: false
 gem 'rexml',                        '~> 3.2', require: false
+gem 'psych',                        '3.3.0'
+
 
 group :development, :test do
   gem 'sqlite3',                    '1.4.2'       
