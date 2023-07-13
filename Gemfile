@@ -13,7 +13,7 @@ gem 'bootstrap-will_paginate',      '1.0.0'
 gem 'bootstrap-sass',               '3.4.1'
 gem 'puma',                         '4.3.6'
 gem 'sass-rails',                   '6.0.0'
-gem 'webpacker',                    '4.2.2'
+gem 'webpacker',                    '5.4.4'
 gem 'turbolinks',                   '5.2.1'
 gem 'jbuilder',                     '2.10.0'
 gem 'bootsnap',                     '1.9.2', require: false
